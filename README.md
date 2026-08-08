@@ -41,7 +41,6 @@ Through this repository, I am focusing on:
 * 📚 Building a strong foundation in Data Structures and Algorithms
 * ⏱️ Understanding time and space complexity
 * 🎯 Preparing for coding interviews and competitive programming
-* 🎓 Building a strong foundation for GATE CSE preparation
 * 📈 Tracking my progress consistently
 * 🤝 Creating a structured resource that can also help other beginners
 
