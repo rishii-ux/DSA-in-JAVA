@@ -1,41 +1,38 @@
 /*
 QUESTION:
-Given an array containing n distinct numbers from 0 to n,
-find the missing number.
+Given an integer array arr[], count how many elements are even
+and how many are odd.
 
 Example:
 Input:
-[3, 0, 1]
+[1, 2, 3, 4, 6]
 
 Output:
-2
-
-Example:
-Input:
-[0, 1]
-
-Output:
-2
+Even = 3
+Odd = 2
 */
-
 
 import java.util.Scanner;
 
-public class Find_Missing_Number {
+public class Count_Even_and_Odd_Numbers {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter the size of the array: ");
         int size = in.nextInt();
         int arr[] = new int[size];
-        int sum=0,l=arr.length;
         System.out.println("Enter the elements in the array: ");
+        int ctr_odd = 0, ctr_even = 0;
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
-            sum+=arr[i];
+            if (arr[i] % 2 == 0) {
+                ctr_even++;
+            } else {
+                ctr_odd++;
+            }
         }
-        int requiredSum=(l*(l+1))/2;
-        System.out.println("The missing number in the array is: "+(requiredSum-sum));
+        System.out.println("Even = " + ctr_even);
+        System.out.println("Odd = " + ctr_odd);
         in.close();
     }
 }
