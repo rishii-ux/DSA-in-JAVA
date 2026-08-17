@@ -1,30 +1,33 @@
 /*
 QUESTION:
-Given n, print:
+Given n, print the following pattern.
 
 Input:
 5
 
 Output:
 1
-22
-333
-4444
-55555
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
 */
 import java.util.Scanner;
 
-public class SameNumberTriangle {
+public class BinaryIncreasingTriangle {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the value of n: ");
         int n = in.nextInt();
-        int ctr=1;
         for(int i=0;i<n;i++){
             for(int j=0;j<=i;j++){
-                System.out.print(ctr);
+                if((i+j)%2==0){   //The logic behind lies in this line.
+                    System.out.print("1 ");
+                }
+                else{
+                    System.out.print("0 ");
+                }
             }
-            ctr++;
             System.out.println();
         }
         in.close();

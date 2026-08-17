@@ -1,15 +1,17 @@
-// QUESTION:
-// Given n, print:
+/* 
+QUESTION:
+Given n, print:
 
-// Input:
-// 5
+Input:
+5
 
-// Output:
-// *****
-// ****
-// ***
-// **
-// *
+Output:
+*****
+****
+***
+**
+*
+*/
 import java.util.Scanner;
 
 public class DecreasingTriangle {

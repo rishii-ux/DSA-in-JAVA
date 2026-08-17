@@ -1,30 +1,32 @@
+
 /*
 QUESTION:
-Given n, print:
+Given n, print an n x m square using '*'.
 
 Input:
-5
+n=4
+m=5
 
 Output:
-1
-22
-333
-4444
-55555
+*****
+*****
+*****
+*****
 */
+
 import java.util.Scanner;
 
-public class SameNumberTriangle {
+public class RectanglePattern {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the value of n: ");
         int n = in.nextInt();
-        int ctr=1;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<=i;j++){
-                System.out.print(ctr);
+        System.out.println("Enter the value of m: ");
+        int m = in.nextInt();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print("*");
             }
-            ctr++;
             System.out.println();
         }
         in.close();
