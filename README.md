@@ -6,7 +6,7 @@ This repository contains my solutions to **carefully selected DSA problems** tha
 
 The questions cover fundamental topics such as **Arrays, Strings, Hashing, ArrayList, Pattern Printing, Mathematics, Searching, and other essential DSA concepts**.
 
-The main goal of this repository is to strengthen my programming fundamentals, improve logical thinking, and gradually prepare myself for **competitive programming, technical interviews, and GATE CSE preparation**.
+The main goal of this repository is to strengthen my programming fundamentals, improve logical thinking, and gradually prepare myself for **competitive programming, technical interviews, and core CSE fundamentals**.
 
 ---
 
